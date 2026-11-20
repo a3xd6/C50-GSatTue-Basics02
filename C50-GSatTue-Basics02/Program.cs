@@ -87,16 +87,25 @@ namespace C50_GSatTue_Basics02
             #region Question 8
             // 8]---------------
 
-            string yearText = "2023";
-            int yearInt = int.Parse(yearText);
-            Console.WriteLine(yearInt);
+            //string yearText = "2023";
+            //int yearInt = int.Parse(yearText);
+            //Console.WriteLine(yearInt);
 
-            string badText = "123";
-            if (int.TryParse(badText, out int x))
-                Console.WriteLine(x);
-            else
-                Console.WriteLine("Invalid number");
-           
+            //string badText = "123";
+            //if (int.TryParse(badText, out int x))
+            //    Console.WriteLine(x);
+            //else
+            //    Console.WriteLine("Invalid number");
+
+            #endregion
+
+            #region Question 9
+            // 9]---------------
+
+            int pages = 464;
+            string pagesText = pages.ToString();
+            Console.WriteLine(pagesText.GetType());
+
             #endregion
         }
     }
