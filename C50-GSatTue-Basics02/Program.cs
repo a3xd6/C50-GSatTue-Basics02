@@ -32,28 +32,36 @@
             // 3]----------------------------
 
             // It's compile-time error 
-            int pages = 464; //fix
+            //int pages = 464;
 
             #endregion
 
             #region Question 4
             // 4]------------------------
 
-            int num1 = 10;
-            int num2 = 0;
-            try
-            {
-                Console.WriteLine(num1/num2);
-            }
-            catch (DivideByZeroException)
-            {
-                Console.WriteLine("Cannot divide by zero");
-            }
-            finally
-            {
-                Console.WriteLine("Done");
-            }
+            //int num1 = 10;
+            //int num2 = 0;
+            //try
+            //{
+            //    Console.WriteLine(num1/num2);
+            //}
+            //catch (DivideByZeroException)
+            //{
+            //    Console.WriteLine("Cannot divide by zero");
+            //}
+            //finally
+            //{
+            //    Console.WriteLine("Done");
+            //}
 
+            #endregion
+
+            #region Question 5
+            // 5]---------------------
+
+            int pages = 300;
+            double x = pages;
+       
             #endregion
         }
     }
