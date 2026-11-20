@@ -67,9 +67,18 @@
             #region Question 6
             // 6]-------------------
 
-            double price = 49.99;
-            int x = (int)price;
-            Console.WriteLine(x);
+            //double price = 49.99;
+            //int x = (int)price;
+            //Console.WriteLine(x);
+
+            #endregion
+
+            #region Question 7
+            // 7]---------------
+
+            string pagesText = "464";
+            int pagesInt=Convert.ToInt32(pagesText);
+            Console.WriteLine(pagesInt);
 
             #endregion
         }
