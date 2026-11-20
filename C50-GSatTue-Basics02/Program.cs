@@ -111,12 +111,12 @@ namespace C50_GSatTue_Basics02
             #region Question 10
             // 10]------------------
 
-            int copies = 100;
-            object obj = copies;
-            Console.WriteLine(obj);
+            //int copies = 100;
+            //object obj = copies;
+            //Console.WriteLine(obj);
 
-            int x = (int)obj;
-            Console.WriteLine(x);
+            //int x = (int)obj;
+            //Console.WriteLine(x);
 
             #endregion
         }
