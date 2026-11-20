@@ -18,13 +18,41 @@
             #region Question 2
             // 2]------------------
 
-            Book book = new Book();
-            book.Title = "System Design";
-            book.Pages = 100;
-            Console.WriteLine(book.ToString());
-            Console.WriteLine(book.Equals(book));
-            Console.WriteLine(book.GetHashCode());
-            Console.WriteLine(book.GetType());
+            //Book book = new Book();
+            //book.Title = "System Design";
+            //book.Pages = 100;
+            //Console.WriteLine(book.ToString());
+            //Console.WriteLine(book.Equals(book));
+            //Console.WriteLine(book.GetHashCode());
+            //Console.WriteLine(book.GetType());
+
+            #endregion
+
+            #region Question 3
+            // 3]----------------------------
+
+            // It's compile-time error 
+            int pages = 464; //fix
+
+            #endregion
+
+            #region Question 4
+            // 4]------------------------
+
+            int num1 = 10;
+            int num2 = 0;
+            try
+            {
+                Console.WriteLine(num1/num2);
+            }
+            catch (DivideByZeroException)
+            {
+                Console.WriteLine("Cannot divide by zero");
+            }
+            finally
+            {
+                Console.WriteLine("Done");
+            }
 
             #endregion
         }
