@@ -4,7 +4,16 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            #region Question 1
+            // 1] ---------------------------------
+
+            Book book = new Book();
+            book.Title = "System Design";
+            book.Pages = 100;
+            object obj = book;
+            Console.WriteLine(obj.ToString());
+
+            #endregion
         }
     }
 }
