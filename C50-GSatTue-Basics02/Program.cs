@@ -59,9 +59,18 @@
             #region Question 5
             // 5]---------------------
 
-            int pages = 300;
-            double x = pages;
-       
+            //int pages = 300;
+            //double x = pages;
+
+            #endregion
+
+            #region Question 6
+            // 6]-------------------
+
+            double price = 49.99;
+            int x = (int)price;
+            Console.WriteLine(x);
+
             #endregion
         }
     }
