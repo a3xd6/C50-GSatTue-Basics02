@@ -102,9 +102,21 @@ namespace C50_GSatTue_Basics02
             #region Question 9
             // 9]---------------
 
-            int pages = 464;
-            string pagesText = pages.ToString();
-            Console.WriteLine(pagesText.GetType());
+            //int pages = 464;
+            //string pagesText = pages.ToString();
+            //Console.WriteLine(pagesText.GetType());
+
+            #endregion
+
+            #region Question 10
+            // 10]------------------
+
+            int copies = 100;
+            object obj = copies;
+            Console.WriteLine(obj);
+
+            int x = (int)obj;
+            Console.WriteLine(x);
 
             #endregion
         }
