@@ -1,4 +1,6 @@
-﻿namespace C50_GSatTue_Basics02
+﻿using static System.Runtime.InteropServices.JavaScript.JSType;
+
+namespace C50_GSatTue_Basics02
 {
     internal class Program
     {
@@ -76,10 +78,25 @@
             #region Question 7
             // 7]---------------
 
-            string pagesText = "464";
-            int pagesInt=Convert.ToInt32(pagesText);
-            Console.WriteLine(pagesInt);
+            //string pagesText = "464";
+            //int pagesInt=Convert.ToInt32(pagesText);
+            //Console.WriteLine(pagesInt);
 
+            #endregion
+
+            #region Question 8
+            // 8]---------------
+
+            string yearText = "2023";
+            int yearInt = int.Parse(yearText);
+            Console.WriteLine(yearInt);
+
+            string badText = "123";
+            if (int.TryParse(badText, out int x))
+                Console.WriteLine(x);
+            else
+                Console.WriteLine("Invalid number");
+           
             #endregion
         }
     }
